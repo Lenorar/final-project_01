@@ -453,8 +453,8 @@ template {
 [hidden] {
   display: none; }
 
-/* 
-Project Name: Max Weinam - Narrative Page 
+/*
+Project Name: Max Weinam - Narrative Page
 Client: Max Weinman
 Author: Your Name
 */
@@ -463,7 +463,7 @@ Author: Your Name
 /*******************************************/
 /* add a list of colours used in the project */
 /******************************************
-/* SENSIBLE DEFAULTS                   
+/* SENSIBLE DEFAULTS
 /*******************************************/
 * {
   box-sizing: border-box; }
@@ -472,7 +472,7 @@ img {
   max-width: 100%; }
 
 /******************************************
-/* LAYOUT                   
+/* LAYOUT
 /*******************************************/
 @media screen and (min-width: 500px) {
   h1 {
@@ -508,14 +508,11 @@ img {
     left: 20px; }
 
   .row {
-    width: 1000%;
-    height: 100vh;
-    overflow-y: scroll; }
+    height: 100vh; }
 
   .film-container {
     width: 700px;
     height: 100vh;
-    display: inline-block;
     margin-top: 150px;
     vertical-align: top; }
 
@@ -648,7 +645,7 @@ img {
   display: block; }
 
 /******************************************
-/* ADDITIONAL STYLES                   
+/* ADDITIONAL STYLES
 /*******************************************/
 nav h1 {
   font-size: 1rem;
