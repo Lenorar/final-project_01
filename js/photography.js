@@ -18,7 +18,7 @@ $(document).ready( function () {
             //when one gallery is revealed hide all other galleries
             $('.gallery').hide();
 
-            
+
 		} else {
 			$france.fadeOut('slow');
 		} 
@@ -26,7 +26,7 @@ $(document).ready( function () {
 	} );
 }); 
 
-
+// hmm none of this seems to be working
 
 
 $(document).ready( function () {
