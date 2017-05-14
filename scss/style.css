@@ -570,13 +570,10 @@ img {
 @media only screen and (max-width: 500px) {
   .film-container {
     width: 300px;
-    margin: 5px;
-    display: inline-block; }
+    margin: 5px; }
 
   .row {
-    width: 1000%;
-    height: 100vh;
-    overflow-y: scroll; }
+    height: 100vh; }
 
   .film-info h1 {
     padding: 0; }
@@ -647,43 +644,6 @@ img {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-nav h1 {
-  font-size: 1rem;
-  font-size: 1rem;
-  font-weight: lighter;
-  line-height: 1em;
-  letter-spacing: 1px;
-  display: inline;
-  color: white;
-  padding: 35px 0;
-  margin-left: 4%; }
-
-nav {
-  height: 100px;
-  width: 100%;
-  position: fixed;
-  /* Make it stick, even on scroll */
-  z-index: 2; }
-
-ul {
-  list-style-type: none;
-  padding: 35px 0;
-  margin: 0 4% 0 0;
-  text-align: right; }
-
-li {
-  display: inline; }
-
-nav ul li a, .sub-nav li a {
-  color: white;
-  padding: 0 2%;
-  text-decoration: none;
-  font-size: .8rem;
-  font-weight: 300;
-  line-height: 1em;
-  letter-spacing: 1.4px;
-  font-family: 'Open Sans', sans-serif; }
-
 /* 
 Project Name: Blank Template
 Client: Your Client
@@ -850,6 +810,11 @@ img {
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+.button {
+  color: blue; }
+  .button:hover {
+    color: yellow; }
+
 /*subnav-PHOTOGRAPHY PAGE*/
 .photography-page {
   background-color: black; }

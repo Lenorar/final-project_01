@@ -35,22 +35,22 @@ $(document).ready( function(){
 // this is for the nav toggle
 
 
-// $('.main-nav').menu({
-//   firstFontSize: '16px',
-//   secondFontSize: '16px',
-//   height: 40,
-//   itemWidth: 20,
-//   itemMargin: 1,
-//   theme: 'blue', // or dark
-//   menuIconColor: '#000',
-//   menuMaskColor: '#000',
-//   mFirstBgColor: '#000',
-//   mFirstFontColor: '#fff',
-//   mSecondBgColor: '#222',
-//   mSecondFontColor: '#fff',
-//   closeIconColor: '#fff',
-//   animate: false,
-//   speed: 200
-// });
+$('.main-nav').menu({
+  firstFontSize: '16px',
+  secondFontSize: '16px',
+  height: 40,
+  itemWidth: 20,
+  itemMargin: 1,
+  theme: 'blue', // or dark
+  menuIconColor: '#000',
+  menuMaskColor: '#000',
+  mFirstBgColor: '#000',
+  mFirstFontColor: '#fff',
+  mSecondBgColor: '#222',
+  mSecondFontColor: '#fff',
+  closeIconColor: '#fff',
+  animate: false,
+  speed: 200
+});
 
 

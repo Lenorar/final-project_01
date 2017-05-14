@@ -35,12 +35,24 @@ img {
 
 
 
+.button {
+    color:blue;
+    &:hover {
+        color:yellow;
+    }
+}
+
+
 
 /*subnav-PHOTOGRAPHY PAGE*/
 
 
 
 
+.active {
+	display: block;
+	background-color: yellow;
+}
 
 .photography-page {
 	background-color: black;
