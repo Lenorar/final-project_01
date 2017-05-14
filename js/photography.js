@@ -28,6 +28,8 @@ $(document).ready( function () {
 
 // hmm none of this seems to be working
 
+//is this working?
+
 
 $(document).ready( function () {
 	var $delaware = $('#delaware');
