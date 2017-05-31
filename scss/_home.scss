@@ -13,12 +13,10 @@ Author: Your Name
 /******************************************
 /* SENSIBLE DEFAULTS                   
 /*******************************************/
+$color:#b5decb;
 
 * {
      box-sizing: border-box;
-}
-img {
-	max-width:100%;
 }
 
 /******************************************
@@ -33,7 +31,8 @@ img {
 /*******************************************/
 
 
-/*nav*/
+/*slideshow buttons*/
+
 
 
 .slideshow-container {
@@ -41,6 +40,10 @@ img {
 	padding:0;
 }
 
+// .slides {
+// 	display:inline;
+
+// }
 
 /******************************************
 /* HELPER CLASSES
@@ -67,6 +70,27 @@ img {
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+
+
+@media only screen and (min-width: 500px) {
+	img {
+		width: 100vw;
+	}
+	.slick-dots li button:before {
+ 	color: $color;
+ 	font-size: 8px;
+ 	}
+
+	.slick-dots li.slick-active button:before{
+	 	color: $color;
+	}	
+
+	.slide{
+		background-size: cover;
+	}	
+
+}
+
 
 
 

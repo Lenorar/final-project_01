@@ -15,14 +15,14 @@
 .slick-next {
   position: absolute;
   display: block;
-  height: 200px;
-  width: 500px;
+  height: 20px;
+  width: 20px;
   line-height: 0px;
   font-size: 0px;
-  z-index: 500;
   cursor: pointer;
   background: transparent;
-  top: 15%;
+  color: transparent;
+  top: 50%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -44,9 +44,9 @@
     opacity: 0.25; }
   .slick-prev:before,
   .slick-next:before {
-    font-size: 30px;
+    font-family: "slick";
+    font-size: 20px;
     line-height: 1;
-    color: white;
     color: white;
     opacity: 0.75;
     -webkit-font-smoothing: antialiased;

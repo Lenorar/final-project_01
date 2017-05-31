@@ -9,6 +9,8 @@ Author: Your Name
 /*******************************************/
 
 /* add a list of colours used in the project */
+$color:#b5decb;
+
 
 /******************************************
 /* SENSIBLE DEFAULTS
@@ -27,7 +29,10 @@ img {
 
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
+
+
+
 h1 {
     position: absolute;
     z-index: 1;
@@ -42,15 +47,15 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-i {
-    border: solid 1px lightblue;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 15px;
-    position: fixed;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+// i {
+//     border: solid 1px lightblue;
+//     border-width: 0 1px 1px 0;
+//     display: inline-block;
+//     padding: 15px;
+//     position: fixed;
+//     top: 50%;
+//     transform: translate(-50%, -50%);
+// }
 
 .right {
     transform: rotate(-45deg);
@@ -74,7 +79,7 @@ i {
     width: 700px;
     height: 100vh;
     // display: inline-block;
-    margin-top:150px;
+    margin-top:100px;
     vertical-align: top;
 }
 
@@ -94,10 +99,11 @@ iframe {
     display: block;
     color: #dbdbdb;
     /*width: 30%;*/
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     letter-spacing: 2px;
-    font-family: 'Merriweather', serif;
+
+    font-family: 'EB Garamond', serif;
     padding: 10px 0 20px;
 }
 
@@ -125,7 +131,6 @@ hr {
 }
 
 .detail {
-    float: right;
     width: 100%;
     text-align: right;
 }
@@ -140,16 +145,90 @@ hr {
     text-align: right;
 }
 
+
+.description {
+    margin-bottom: 20px;
+}
 }
 
 
+.slick-next::before {
+        background: url('../img/arrowright.svg') no-repeat;
+        content: "";
+        height: 50px;
+        width: 50px;
+        float: right;
+        margin-left: 50px;
+}
 
-@media only screen and (max-width: 500px) {
+
+.slick-prev:before {
+        background: url('../img/arrowleft.svg') no-repeat;
+        content: "";
+        height: 50px;
+        width: 50px;
+        float: left;
+        margin-right: 50px;
+}
+
+
+.slick-prev, .slick-next {
+    top: 10px;
+    z-index: 3;
+
+}
+
+
+.slick-prev
+{
+    position: fixed;
+    left: 8%;
+    top: 15%;
+}
+.slick-next
+{
+    position: fixed;
+    right: 8%;
+    top: 15%;
+
+}
+
+
+//narrative + notes buttons
+
+.film-buttons {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    position: fixed;
+    z-index: 1;
+
+
+    a {
+        margin: 0 1rem;
+        color:$color;
+
+    }
+}
+
+
+.film-container:not(.active) {
+     display: none;
+ }
+
+
+
+
+.film-info {
+    height: 600px;
+}
+
+@media only screen and (max-width: 800px) {
 
 
 .film-container {
-    width: 300px;
-    margin: 5px;
+    margin-top: 150px;
 }
 
 .row {
@@ -170,6 +249,11 @@ hr {
 
 iframe {
     max-width: 100%;
+}
+
+.film-info {
+     padding: 40px;
+     padding-top: 0;
 }
 
 .film-info  h1 {
@@ -193,8 +277,6 @@ iframe {
     color: #dbdbdb;
     font-weight: 100;
     letter-spacing: .8px;
-
-
 }
 
 hr {
@@ -203,14 +285,14 @@ hr {
 }
 
 .detail {
-    display: inline-block;
+    display: block;
     width: 100%;
     text-align: right;
+    margin-top: 20px;
 }
 
 .detail h2{
     display: inline;
-    margin: 0 5% 0 0;
     border-top: solid #dbdbdb 1px;
     padding: 2% 5% 0 0;
     color: #dbdbdb;
@@ -219,26 +301,30 @@ hr {
     font-weight: 300;
 }
 
+.film-buttons {
+    display: none;
+}
 }
 
 
 
+@media only screen and (max-width: 480px) {
+.film-container {
+    margin-top: 50px;
+}
+
+.detail {
+    text-align: left;
+}
+
+.site-content {
+    padding: none;
+}
+}
 
 
 .site-header {
     z-index: 2;
-
-}
-.site-content {
-
-
-
-
-
-
-
-}
-.site-footer {
 
 }
 

@@ -18,6 +18,9 @@ Author: Your Name
      box-sizing: border-box;
 }
 
+html {
+	background-color: white;
+}
 img {
 	max-width:100%;
 }
@@ -93,23 +96,32 @@ p {
 .interview {
 
 	ul {
-		padding: 2% 0;
+		padding: 0;
 		text-align: left;
 	}
 	
 	 li{
-		padding: 2% 0px;
+		// padding: 2% 0px;
 		width: 80%;
 		display: block;
 	}
 }
 
-a:hover {
-	color: lightblue;
-}
 
 
-@media only screen and (max-width: 500px) {
+
+// @media only screen and (max-width: 768px) {
+// 	p {
+// 		color: blue;
+
+// 	.about-site-content {
+// 		width: 50px;
+// 	}
+// }
+// }
+
+
+@media only screen and (max-width: 1000px) {
 
 .about-site-content {
 	width: 90%;
@@ -117,7 +129,9 @@ a:hover {
 	padding-top: 12%;
 }
 
-
+hr {
+	display: none;
+}
 .right-column {
 	width: 100%;
 }
@@ -174,7 +188,9 @@ h1 {
 
 
 
-
+	.interview li {
+		margin: 20px 0;
+	}
 
 
 

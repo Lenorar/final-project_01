@@ -1,56 +1,33 @@
 
-// $(document).ready( function(){
-// 	console.log('it works');
 
-// 	// when I click on the .main-nav slide the .site-nav ul down 
-// 	// when I click on the icon again, slide the nav up 
 
-// 	$('.main-nav').on('click', function(){
-// 		$('.main-nav ul').slideToggle();
+$(document).ready(function(){
+	console.log('it works');
+  $(".film-container").addClass("active");
+  
+});
 
-// 	});
+$(".film-button").click(function (e) {
+     e.preventDefault();
+     console.log('inside click')
+     $(".film-container").removeClass("active");
+     var contentid = $(this).attr("href");
+     $(contentid).addClass("active");
+    
+ });
 
-// 	//this is when the browser scales	
 
-// 	$(window).on('resize', function(){
-// 		console.log('resizing');
-// 		if ($(window).width()>640) {
-// 			$('.site-nav ul').show();
-// 			$('.nav-icon').hide();
-// 		}else {
-// 			$('.site-nav ul').hide();
-// 			$('.nav-icon').show();		
-// 		}
-// 	});
-
+		
 // });
 
 
+  // $('.carousel-content').slick({
+  //     prevArrow:"<img class='a-left control-c prev slick-prev' src='icon.jpg'>",
+  //     nextArrow:"<img class='a-right control-c next slick-next' src='../images/shoe_story/arrow-right.png'>"
+  // });
 
-$(document).ready( function(){
-	console.log('it works');
-});
+  
 
-
-// this is for the nav toggle
-
-
-$('.main-nav').menu({
-  firstFontSize: '16px',
-  secondFontSize: '16px',
-  height: 40,
-  itemWidth: 20,
-  itemMargin: 1,
-  theme: 'blue', // or dark
-  menuIconColor: '#000',
-  menuMaskColor: '#000',
-  mFirstBgColor: '#000',
-  mFirstFontColor: '#fff',
-  mSecondBgColor: '#222',
-  mSecondFontColor: '#fff',
-  closeIconColor: '#fff',
-  animate: false,
-  speed: 200
-});
+  //when you click on "narrative-button", class of "narratives" shows and all other film display none 
 
 

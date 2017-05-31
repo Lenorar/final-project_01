@@ -1,12 +1,26 @@
 
-@import "home";
+@import "slicknav";
+@import "core";
 @import "normalize";
 @import "main";
-@import "nav";
 @import "about";
 @import "photography";
 @import "slides-home";
+@import "home";
+
+@import "nav";
+
 
 html {
-    background: black;
+    background-color: black;
 }
+
+a:hover {
+    color: $color;
+}
+
+.color-active {
+	color: orange;
+}
+
+

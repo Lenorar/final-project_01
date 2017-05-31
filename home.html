@@ -9,33 +9,24 @@
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="js/slick/slick.css">
 		<link rel="stylesheet" href="js/slick/slick-theme.css">
-		<link rel="stylesheet" href="js/menu/menu.css">
 		<link rel="stylesheet" href="scss/style.css">
+<!-- 		<link rel="stylesheet" href="js/menu/menu.css">
+ -->		<link rel="style" href="js/slicknav/slicknav.css">
+
+
 
 	</head>
 	<body>
 		<div class="site-container">
-			<header class="site-header">
-				<div class="clearfix">
-					<a href="home.html"><h1>Max Weinman</h1></a>
-						<div class="main-nav">	
-							<ul class="main-nav-pc">
-								<li>									
-									<a href="index.html">Narratives</a>
-								</li>
-								<li>
-									<a href="index.html">Notes</a>
-								</li>
-								<li>
-									<a href="photography.html">Photography</a>
-								</li>
-								<li>
-									<a href="about.html">About</a>
-								</li>
-							</ul>
-						</div>
-				</nav>
+			<header class="site-header clearfix">
+					<a class="title" href="home.html">Max Weinman</a>
+					<ul id="menu">
+						<li class="hvr-underline-from-center"><a href="index.html">Films</a></li>
+						<li class="hvr-underline-from-center"><a href="photography.html">Photography</a></li>
+						<li class="hvr-underline-from-center"><a href="about.html">About</a></li>
+					</ul>
 			</header>
+
 			<!-- this is my slideshow on home -->
 			<div class="slides">
 				<div class="slide slide-1">
@@ -60,34 +51,10 @@
 
 		</div><!-- .site-container -->
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<!-- 		<script src="js/menu/menu.js"></script>
- -->
-
-		<script src="js/slick/slick.min.js"></script>
-		<script>
-				$('.ve-menu').menu({
-					  firstFontSize: '16px',
-					  secondFontSize: '16px',
-					  height: 40,
-					  itemWidth: 20,
-					  itemMargin: 1,
-					  theme: 'blue', // or dark
-					  menuIconColor: '#000',
-					  menuMaskColor: '#000',
-					  mFirstBgColor: '#000',
-					  mFirstFontColor: '#fff',
-					  mSecondBgColor: '#222',
-					  mSecondFontColor: '#fff',
-					  closeIconColor: '#fff',
-					  animate: false,
-					  speed: 200
-				});
 
 		</script>
 
-
-
-
+		<script src="js/slick/slick.min.js"></script>
 		<script src="js/main.js"></script>
 		<script>
 			$('.slides').slick({
@@ -97,6 +64,12 @@
 				arrows: false,
 				dots: true,
 			});			
+		</script>
+	    <script src="js/slicknav/jquery.slicknav.js"></script>
+		<script>
+			$(function(){
+				$('#menu').slicknav();
+			});
 		</script>
 
 	</body>
