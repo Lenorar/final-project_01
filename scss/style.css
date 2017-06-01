@@ -765,9 +765,6 @@ img {
     margin: 0 1rem;
     color: #b5decb; }
 
-.film-container:not(.active) {
-  display: none; }
-
 .film-info {
   height: 600px; }
 
