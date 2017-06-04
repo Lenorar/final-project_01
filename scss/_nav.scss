@@ -1,5 +1,7 @@
 //build mobile here//
-$color:#b5decb;
+$color:#4893FF;
+
+// b5decb
 
 
 
@@ -28,28 +30,24 @@ header {
     }
 
 .slicknav_menu {
-    background: black;
+    background: #000;
     position: fixed;
     width: 100%;
     z-index: 2;
   .slicknav_menutxt {
     display: none;
   }
-
-
 }
-
- 
 
 
 .slicknav_btn {
-    background-color: black;
+    background-color: #000;
     border-radius: 0;
 }
 
 
     .slicknav_nav a {
-        border-top:1px solid black;
+        border-top:1px solid #000;
 
     }
 
@@ -61,7 +59,9 @@ header {
       border-radius: 0;
   }
 
-
+.sub-nav a:hover {
+  color: $color;
+}
 
 
 a.title {
@@ -80,7 +80,6 @@ a.title {
 a.title {
   height: 95px;
 }
-
 
 
 .hvr-underline-from-center {
@@ -128,9 +127,10 @@ header {
   display: inline;
   font-size: 1rem;
   margin: 2%;
-  font-weight: lighter;
+  font-weight: 300;
   line-height: 1em;
   letter-spacing: 1px;
+  padding-bottom: 5px;
 }
 
 
@@ -158,11 +158,10 @@ header {
 
 
 #menu ul li a, .sub-nav li a, .title {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: .8rem;
     font-weight: 300;
-    // line-height: 1em;
     letter-spacing: 1.2px;
     font-family: 'Open Sans', sans-serif;
 }

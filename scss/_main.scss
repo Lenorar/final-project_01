@@ -9,7 +9,7 @@ Author: Your Name
 /*******************************************/
 
 /* add a list of colours used in the project */
-$color:#b5decb;
+$color:#4893FF;
 
 
 /******************************************
@@ -174,7 +174,7 @@ hr {
 
 .slick-prev, .slick-next {
     top: 10px;
-    z-index: 3;
+    z-index: 1;
 
 }
 
@@ -217,15 +217,19 @@ hr {
 // }
 
 
-// .film-container:not(.active) {
-//      display: none;
-//  }
+.film-container:not(.active) {
+     display: none;
+ }
 
 
 
 
 .film-info {
     height: 600px;
+}
+
+.film img {
+    width: auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -328,8 +332,7 @@ hr {
 
 
 .site-header {
-    z-index: 2;
-
+    z-index: 4;
 }
 
 /******************************************

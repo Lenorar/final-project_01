@@ -15,51 +15,53 @@
 
 
 
+//this code works
 
-
-$(document).ready(function(){
-	console.log('it works');
-	$(".film-container").show();
+// $(document).ready(function(){
+// 	console.log('it works');
+// 	$(".film-container").show();
 
   
-});
+// });
 
-// $(".film-buttons").click(function(event) {
-// 	event.preventDefault();
-// 	$(".film-container").hide()
+
+// $(".film-buttons .no").click(function (event) {
+//      event.preventDefault();
+//      $(".film-container").hide();
+
+//     $( ".film-container").filter( ".notes" );
+//     $(".notes").show();
+// });
+
+
+// $(".film-buttons .nar").click(function (event) {
+//      event.preventDefault();
+//     $(".film-container").hide();
+
+// 	    $( ".film-container" ).filter( ".narratives");
+// 	    $(".narratives").show();
+// 	    $(".row").append(".film-container");
 
 // });
 
 
-$(".film-buttons .no").click(function (event) {
-     event.preventDefault();
-     $(".film-container").hide();
 
-    $( ".film-container").filter( ".notes" );
-    $(".notes").show();
+
+
+$(document).ready(function(){
+	console.log('it works');
+  $(".film-container").addClass("active");
+  
 });
 
-
-$(".film-buttons .nar").click(function (event) {
-     event.preventDefault();
-    $(".film-container").hide();
-
-	    $( ".film-container" ).filter( ".narratives");
-	    $(".narratives").show();
-	    $(".row").append(".film-container");
-	 // 	$('.narratives').slick({
-	 // 		  	centerMode: false,
-  // 				centerPadding: '600px',
- 	// 		    slidesToShow: 1,
-		// });
-});
-
-
-
-
-
-
-
+$(".film-button").click(function (e) {
+     e.preventDefault();
+     console.log('inside click')
+     $(".film-container").removeClass("active");
+     var contentid = $(this).attr("href");
+     $(contentid).addClass("active");
+    
+ });
 
 
 

@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.gallery').hide();
     $('#lames').show();
     $('.button').css('color', 'white');    
-    $('#lames-button').css('color', '#b5decb');
+    $('#lames-button').css('color', '#4893FF');
    
     $('.button').click(function () {
         var $this = $(this);
@@ -12,10 +12,9 @@ $(document).ready(function(){
 
 
         if ($('.gallery').is(':hidden')) {
-
             $('.gallery').hide();
             $(element).fadeIn('slow');
-            $(this).css('color','#b5decb');    
+            $(this).css('color','#4893FF');    
         }
 
     });
