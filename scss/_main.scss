@@ -1,14 +1,13 @@
-/*
-Project Name: Max Weinam - Narrative Page
+/* 
+Project Name: Max Weinman
 Client: Max Weinman
-Author: Your Name
+Author: Lenora Rigoni
 */
 
 /******************************************
 /* COLOURS
 /*******************************************/
 
-/* add a list of colours used in the project */
 $color:#4893FF;
 
 
@@ -43,7 +42,7 @@ h1 {
     display: inline;
     padding-left: 4%;
     margin:0;
-    color: white;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -70,15 +69,12 @@ h1 {
 }
 
 .row {
-  // width: 1000%;
   height: 100vh;
-  // overflow-y: scroll;
 }
 
 .film-container {
     width: 700px;
     height: 100vh;
-    // display: inline-block;
     margin-top:100px;
     vertical-align: top;
 }
@@ -98,7 +94,6 @@ iframe {
     margin-top: 2%;
     display: block;
     color: #dbdbdb;
-    /*width: 30%;*/
     font-size: 1.8rem;
     font-weight: 300;
     letter-spacing: 2px;
@@ -212,17 +207,9 @@ hr {
     }
 }
 
-// .film-container {
-//     display: block;
-// }
-
-
 .film-container:not(.active) {
      display: none;
  }
-
-
-
 
 .film-info {
     height: 600px;
@@ -240,9 +227,7 @@ hr {
 }
 
 .row {
-  // width: 1000%;
   height: 100vh;
-  // overflow-y: scroll;
 }
 
 
@@ -273,9 +258,7 @@ iframe {
     font-weight: 300;
     letter-spacing: 1px;
     font-family: 'Merriweather', serif;
-
 }
-
 
 .film-info p {
     height: 15vh;
@@ -313,7 +296,6 @@ hr {
     display: none;
 }
 }
-
 
 
 @media only screen and (max-width: 480px) {

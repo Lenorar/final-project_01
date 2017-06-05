@@ -1,29 +1,20 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Max Weinman
+Client: Max Weinman
+Author: Lenora Rigoni
 */
-
 /******************************************
 /* COLOURS
 /*******************************************/
 
 /* add a list of colours used in the project */
 
-/******************************************
-/* SENSIBLE DEFAULTS                   
-/*******************************************/
 $color:#4893FF;
 
 * {
      box-sizing: border-box;
 }
 
-/******************************************
-/* TYPOGRAPHY
-/*******************************************/
-
-/* add type styles here */
 
 
 /******************************************
@@ -34,16 +25,11 @@ $color:#4893FF;
 /*slideshow buttons*/
 
 
-
 .slideshow-container {
 	margin:0;
 	padding:0;
 }
 
-// .slides {
-// 	display:inline;
-
-// }
 
 /******************************************
 /* HELPER CLASSES
@@ -65,11 +51,6 @@ $color:#4893FF;
 .is-visible {
      display: block;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES                   
-/*******************************************/
 
 
 @media only screen and (min-width: 500px) {

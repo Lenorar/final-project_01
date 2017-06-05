@@ -1,14 +1,9 @@
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Max Weinman
+Client: Max Weinman
+Author: Lenora Rigoni
 */
 
-/******************************************
-/* COLOURS
-/*******************************************/
-
-/* add a list of colours used in the project */
 
 /******************************************
 /* SENSIBLE DEFAULTS                   
@@ -37,7 +32,7 @@ $color:#477EFF;
 /*subnav-PHOTOGRAPHY PAGE*/
 
 .photography-page {
-	background-color: black;
+	background-color: #000;
 }
 
 .sub-nav {
@@ -73,12 +68,6 @@ $color:#477EFF;
 }
 
 
-
-// .image-slideshow-container ul{
-// 	margin-top: 100px;
-// }
-
-
 .image-slideshow-container ul li img {
     width: 70%;
     float: right;
@@ -112,7 +101,7 @@ $color:#477EFF;
     padding: 0;
     margin-left: 60px;
     text-decoration: none;
-    color:white;
+    color:#fff;
   }
 }
 }
@@ -156,17 +145,6 @@ $color:#477EFF;
 .hvr-overline-from-left:hover {
   color:$color;
 }
-
-.site-header {
-
-}
-.site-content {
-
-}
-.site-footer {
-
-}
-
 
 /* Clearfix */
 .clearfix:before,

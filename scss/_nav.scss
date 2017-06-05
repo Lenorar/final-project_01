@@ -1,15 +1,11 @@
-//build mobile here//
 $color:#4893FF;
-
-// b5decb
-
 
 
 @media only screen and (max-width: 500px) {
 
 
 header {
-    position: fixed; /* Make it stick, even on scroll */
+    position: fixed; 
     width: 100%;
 }
 
@@ -65,7 +61,7 @@ header {
 
 
 a.title {
-  color: white; 
+  color: #fff; 
   margin: 0 4%;
   text-decoration: none;
 }
@@ -113,7 +109,7 @@ a.title {
 }
 
 header {
-    position: fixed; /* Make it stick, even on scroll */
+    position: fixed; 
     width: 100%;
 }
 
@@ -136,7 +132,6 @@ header {
 
 #menu {
     float:right;
-    // position: fixed;
 
 }
      ul {
@@ -148,7 +143,7 @@ header {
     }
 
         a {
-            color: white;
+            color: #fff;
             text-decoration: none;
         }
 

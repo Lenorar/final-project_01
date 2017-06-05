@@ -617,15 +617,14 @@ template {
 [hidden] {
   display: none; }
 
-/*
-Project Name: Max Weinam - Narrative Page
+/* 
+Project Name: Max Weinman
 Client: Max Weinman
-Author: Your Name
+Author: Lenora Rigoni
 */
 /******************************************
 /* COLOURS
 /*******************************************/
-/* add a list of colours used in the project */
 /******************************************
 /* SENSIBLE DEFAULTS
 /*******************************************/
@@ -649,7 +648,7 @@ img {
     display: inline;
     padding-left: 4%;
     margin: 0;
-    color: white;
+    color: #fff;
     font-family: 'Open Sans', sans-serif; }
 
   .right {
@@ -683,7 +682,6 @@ img {
     margin-top: 2%;
     display: block;
     color: #dbdbdb;
-    /*width: 30%;*/
     font-size: 1.8rem;
     font-weight: 300;
     letter-spacing: 2px;
@@ -867,14 +865,10 @@ img {
 /* ADDITIONAL STYLES
 /*******************************************/
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Max Weinman
+Client: Max Weinman
+Author: Lenora Rigoni
 */
-/******************************************
-/* COLOURS
-/*******************************************/
-/* add a list of colours used in the project */
 /******************************************
 /* SENSIBLE DEFAULTS                   
 /*******************************************/
@@ -882,15 +876,11 @@ Author: Your Name
   box-sizing: border-box; }
 
 html {
-  background-color: white; }
+  background-color: #fff; }
 
 img {
   max-width: 100%; }
 
-/******************************************
-/* TYPOGRAPHY
-/*******************************************/
-/* add type styles here */
 /******************************************
 /* LAYOUT                   
 /*******************************************/
@@ -981,7 +971,7 @@ p {
     letter-spacing: 1px; }
 
   .right-column p {
-    border-top: white solid 1px;
+    border-top: #fff solid 1px;
     font-size: .8rem;
     margin-top: 20px;
     line-height: 2em;
@@ -1013,14 +1003,10 @@ p {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Max Weinman
+Client: Max Weinman
+Author: Lenora Rigoni
 */
-/******************************************
-/* COLOURS
-/*******************************************/
-/* add a list of colours used in the project */
 /******************************************
 /* SENSIBLE DEFAULTS                   
 /*******************************************/
@@ -1039,7 +1025,7 @@ img {
 /*******************************************/
 /*subnav-PHOTOGRAPHY PAGE*/
 .photography-page {
-  background-color: black; }
+  background-color: #000; }
 
 .sub-nav {
   width: 15px;
@@ -1086,7 +1072,7 @@ img {
       padding: 0;
       margin-left: 60px;
       text-decoration: none;
-      color: white; } }
+      color: #fff; } }
 .hvr-overline-from-left {
   display: block;
   vertical-align: middle;
@@ -1208,24 +1194,17 @@ img {
   .slide-4 {
     background-image: url("../img/4.jpg"); } }
 /* 
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Max Weinman
+Client: Max Weinman
+Author: Lenora Rigoni
 */
 /******************************************
 /* COLOURS
 /*******************************************/
 /* add a list of colours used in the project */
-/******************************************
-/* SENSIBLE DEFAULTS                   
-/*******************************************/
 * {
   box-sizing: border-box; }
 
-/******************************************
-/* TYPOGRAPHY
-/*******************************************/
-/* add type styles here */
 /******************************************
 /* LAYOUT                   
 /*******************************************/
@@ -1252,9 +1231,6 @@ Author: Your Name
 .is-visible {
   display: block; }
 
-/******************************************
-/* ADDITIONAL STYLES                   
-/*******************************************/
 @media only screen and (min-width: 500px) {
   img {
     width: 100vw; }
@@ -1271,7 +1247,6 @@ Author: Your Name
 @media only screen and (max-width: 500px) {
   header {
     position: fixed;
-    /* Make it stick, even on scroll */
     width: 100%; } }
 .title {
   float: left;
@@ -1309,7 +1284,7 @@ Author: Your Name
   color: #4893FF; }
 
 a.title {
-  color: white;
+  color: #fff;
   margin: 0 4%;
   text-decoration: none; }
 
@@ -1351,7 +1326,6 @@ a.title {
 
   header {
     position: fixed;
-    /* Make it stick, even on scroll */
     width: 100%; }
 
   .title {
@@ -1378,7 +1352,7 @@ a.title {
     width: 300px; }
 
   a {
-    color: white;
+    color: #fff;
     text-decoration: none; }
 
   .slicknav_menu {
@@ -1392,12 +1366,9 @@ a.title {
     letter-spacing: 1.2px;
     font-family: 'Open Sans', sans-serif; } }
 html {
-  background-color: black; }
+  background-color: #000; }
 
 a:hover {
   color: #4893FF; }
-
-.color-active {
-  color: orange; }
 
 /*# sourceMappingURL=style.css.map */
