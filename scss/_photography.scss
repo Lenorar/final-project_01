@@ -18,18 +18,12 @@ img {
 
 $color:#477EFF;
 
-/******************************************
-/* TYPOGRAPHY
-/*******************************************/
-
-/* add type styles here */
-
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
-/*subnav-PHOTOGRAPHY PAGE*/
+/*subnav-photography page*/
 
 .photography-page {
 	background-color: #000;
@@ -43,10 +37,7 @@ $color:#477EFF;
     text-align: left;
     margin: 0;
   }
-
 }
-
-
 
 .image-slideshow-container  ul{
   width: 100%;
@@ -54,7 +45,6 @@ $color:#477EFF;
   padding: 0;
   margin:0;
 }
-
 
 
 
@@ -76,8 +66,7 @@ $color:#477EFF;
 
 
 
-
-/*MOBILE*/
+/*mobile*/
 
 @media only screen and (max-width: 500px) {
 
@@ -141,7 +130,6 @@ $color:#477EFF;
 }
 
 
-
 .hvr-overline-from-left:hover {
   color:$color;
 }
@@ -183,12 +171,6 @@ $color:#477EFF;
 .is-visible {
      display: block;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES                   
-/*******************************************/
-
 
 
 

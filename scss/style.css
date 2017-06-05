@@ -694,7 +694,7 @@ img {
     font-weight: 300; }
 
   .film-info p {
-    height: 22vh;
+    height: 20vh;
     border-top: #dbdbdb;
     color: #dbdbdb;
     font-family: 'Open Sans', sans-serif;
@@ -756,7 +756,7 @@ img {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 85px;
+  margin-top: 95px;
   position: fixed;
   z-index: 1; }
   .film-buttons a {
@@ -791,25 +791,23 @@ img {
   .film-info {
     padding: 40px;
     padding-top: 0; }
-
-  .film-info h1 {
-    position: relative;
-    margin-top: 2%;
-    color: 70%;
-    color: #dbdbdb;
-    font-size: 1.2rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-family: 'Merriweather', serif; }
-
-  .film-info p {
-    height: 15vh;
-    border-top: #dbdbdb;
-    font-size: .8rem;
-    line-height: 2em;
-    color: #dbdbdb;
-    font-weight: 100;
-    letter-spacing: .8px; }
+    .film-info h1 {
+      position: relative;
+      margin-top: 2%;
+      color: 70%;
+      color: #dbdbdb;
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-family: 'Merriweather', serif; }
+    .film-info p {
+      border-top: #dbdbdb;
+      font-size: .8rem;
+      line-height: 2em;
+      color: #dbdbdb;
+      font-weight: 100;
+      letter-spacing: .8px;
+      margin-bottom: 30px; }
 
   hr {
     display: none; }
@@ -949,9 +947,8 @@ p {
 
   .left-column {
     width: 100%; }
-
-  .left-column p {
-    margin-top: 20px; }
+    .left-column p {
+      margin-top: 20px; }
 
   .right-column p {
     padding: 20px 0; }
@@ -1017,13 +1014,9 @@ img {
   max-width: 100%; }
 
 /******************************************
-/* TYPOGRAPHY
-/*******************************************/
-/* add type styles here */
-/******************************************
 /* LAYOUT                   
 /*******************************************/
-/*subnav-PHOTOGRAPHY PAGE*/
+/*subnav-photography page*/
 .photography-page {
   background-color: #000; }
 
@@ -1053,7 +1046,7 @@ img {
   float: right;
   margin-bottom: 5px; }
 
-/*MOBILE*/
+/*mobile*/
 @media only screen and (max-width: 500px) {
   .site-content {
     padding: 25px; }
@@ -1141,9 +1134,6 @@ img {
 .is-visible {
   display: block; }
 
-/******************************************
-/* ADDITIONAL STYLES                   
-/*******************************************/
 /*desktop*/
 @media only screen and (min-width: 500px) {
   .slides {
@@ -1201,7 +1191,6 @@ Author: Lenora Rigoni
 /******************************************
 /* COLOURS
 /*******************************************/
-/* add a list of colours used in the project */
 * {
   box-sizing: border-box; }
 

@@ -10,12 +10,10 @@ $(document).ready(function(){
         var element = $this.attr('href');
         $('.button').css('color', 'white');    
 
-
         if ($('.gallery').is(':hidden')) {
             $('.gallery').hide();
             $(element).fadeIn('slow');
             $(this).css('color','#4893FF');    
         }
-
     });
 });
